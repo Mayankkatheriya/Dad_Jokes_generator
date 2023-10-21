@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="./styles.css" />
+  <body>
+    <div class="container animate__animated animate__backInDown">
+      <h1 class="heading animate__animated animate__fadeInLeft">
+        Dad Joke Generator
+      </h1>
+      <div class="joke-container">
+        <h3 class="sub-heading animate__animated animate__flipInX">Dad Joke</h3>
+        <div class="btn-container">
+          <button class="copy">Copy <i class="fa-solid fa-copy"></i></button>
+          <button class="share">
+            Share <i class="fa-solid fa-share-nodes"></i>
+          </button>
+        </div>
+        <p class="message">copied to clipboard</p>
+      </div>
+      <button id="btn" class="animate__animated animate__rotateIn">
+        Tell me a Joke
+      </button>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/08f45ad4dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
